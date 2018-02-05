@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SpringSecurityEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="SpringSecurity.war" deploy-path="/" handle="module:/resource/SpringSecurity/SpringSecurity">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-api-2.10.0.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/log4j2/log4j-api-2.10.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-core-2.10.0.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/log4j2/log4j-core-2.10.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-core-4.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring-security-core-4.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-web-4.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring-security-web-4.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.3.9.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring/spring-web-4.3.9.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-config-4.2.3.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring-security-config-4.2.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.3.9.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring/spring-context-4.3.9.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.3.9.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring/spring-beans-4.3.9.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.3.9.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring/spring-expression-4.3.9.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.3.9.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring/spring-core-4.3.9.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.3.9.RELEASE.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/spring/spring-aop-4.3.9.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/lib" handle="module:/classpath/lib/C:/Users/Peter Remec/Downloads/commons-logging-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
